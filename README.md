@@ -65,7 +65,25 @@ You are provided with two contract skeletons in `contracts/`:
    - Example: `test/SkillsMarketplace.test.js` and `test/SecureLottery.test.js`
    - Run tests with: `npx hardhat test`
 
+
 ---
+
+## Functional Specifications
+
+### PART 1: Skills Marketplace
+- **Worker Management:** Implementation of `registerWorker` with input validation and duplicate prevention.
+- **Gig Workflow:** Implementation of `postGig` (accepting payments), `applyForGig`, and `submitWork`.
+- **Payment & Security:** Implementation of `approveAndPay` using the **Checks-Effects-Interactions** pattern to prevent reentrancy attacks.
+- **Events:** Proper emission of events for all state-changing operations.
+
+### PART 2: Secure Lottery
+- **Participation:** Implementation of `enter` with minimum entry requirements and multi-entry support.
+- **Winner Selection:** A `selectWinner` function that calculates a "winner" from total entries and distributes the pot (90% to winner, 10% to owner).
+- **Randomness Challenge:** Application of a secure randomness mechanism (e.g., using block data or VDF concepts).
+- **Safety:** Implementation of an emergency circuit breaker (pause/unpause) and reentrancy protection.
+
+---
+
 
 ## File Structure
 
