@@ -1,6 +1,7 @@
 # Part A: MCQ Answers
 
 **Status:** [In Progress / Submitted]  
+In Progress
 
 ---
 
@@ -30,9 +31,11 @@
 - **D)** Build everything as separate NFT collections with no DEX integration since farmers won't understand DeFi protocols.  
 
 **Your Answer:** [A/B/C/D]  
+B
 
 **Your Reasoning:**  
 [2–3 sentences explaining why you chose this answer. What makes it the best choice?]  
+as specified tokens are to be exchanged on a DEX therefore a DEX is required, plus the metadata of the farmers are also able to be recored using ERC-1155.
 
 ---
 
