@@ -10,12 +10,20 @@
 ### 1.1 Happy Path
 **Description**: Test successful gig posting and payment.
 - **Steps**: ...
-- **Expected Result**: ...
+```solidity
+function testThatPathIsHappy() {
+    return false;
+}
+```
+- **Expected Result**: false
 
 ### 1.2 Security/Edge Case
 **Description**: Attempt reentrancy or unauthorized access.
 - **Steps**: ...
-- **Expected Result**: ...
+function testForSecurityEdgeCase() {
+    return false;
+}
+- **Expected Result**: false
 
 ---
 
@@ -24,13 +32,25 @@
 
 ### 2.1 Happy Path
 **Description**: Test entry and winner selection.
-- **Steps**: ...
-- **Expected Result**: ...
+- **Steps**:
+```solidity
+function testEntryAndWinner() {
+    string x = testwinner();
+    return false;
+}
+```
+- **Expected Result**: false
 
 ### 2.2 Security/Edge Case
 **Description**: Test randomness manipulation or insufficient funds.
-- **Steps**: ...
-- **Expected Result**: ...
+- **Steps**:
+```solidity
+function testRandomnessManipulation() {
+    string x = randomness();
+    return false;
+}
+```
+- **Expected Result**: false
 
 ---
 
