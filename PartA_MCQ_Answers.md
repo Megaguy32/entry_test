@@ -57,11 +57,16 @@ A farmer wants to list 50 bags of maize. Gas costs are:
 - **D)** ERC-1155 is cheaper by approximately $54  
 
 **Your Answer:** [A/B/C/D]  
+D
 
 **Your Calculation/Reasoning:**  
-- ERC-721 cost = [Show calculation]
-- ERC-1155 cost = [Show calculation]
-- Difference = [Show calculation]
+- ERC-721 cost = [Show calculation] 
+20+100_000*50=5_000_020
+- ERC-1155 cost = [Show calculation] 
+20+150_000+(49*5_000)=395_000
+- Difference = [Show calculation] 
+ERC-1155 - ERC-721 = 395_000 - 5_000_020 = -4_995_020
+I don't have gas per $ value, so my evaluation is since its such a big difference ERC-1155 is more cheaper rather than less cheaper
 
 
 [Explain why gas optimisation matters for African users]  
