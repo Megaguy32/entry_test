@@ -70,6 +70,7 @@ I don't have gas per $ value, so my evaluation is since its such a big differenc
 
 
 [Explain why gas optimisation matters for African users]  
+gas is cost of transaction, majority Africans are poor compared to the world citizen average, so making it cheap for them is important.
 
 ---
 
@@ -85,9 +86,11 @@ A farmer asks: *"Why can't we just use a normal website with a database?"*
 - **D)** "Blockchain uses cryptography which makes it unhackable, unlike normal databases."  
 
 **Your Answer:** [A/B/C/D]  
+B
 
 **Your Explanation:**  
 [2–3 sentences explaining what makes this answer correct. What did you learn about why blockchain matters in Africa?]  
+B cleary explains the features of the blockchain and is not misinformation or buzzwords like the other answers
 
 ---
 
