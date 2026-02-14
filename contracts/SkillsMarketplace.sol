@@ -13,12 +13,18 @@ contract SkillsMarketplace {
     // - How will you track workers and their skills?
     // - How will you store gig information?
     // - How will you manage payments?
+    mapping(string => string) workerSkills;
+    string[] gigs;
+    uint[] payments;
+
+    constructor() {
+        workerSkills["bob"] = "good at digging";
+        gigs[0] = "gig1";
+        payments[0] = 0;
+    }
     
     address public owner;
     
-    constructor() {
-        owner = msg.sender;
-    }
     
     // TODO: Implement registerWorker function
     // Requirements:
