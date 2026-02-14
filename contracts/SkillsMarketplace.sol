@@ -67,6 +67,7 @@ contract SkillsMarketplace {
     // - Emit an event
     function submitWork(uint256 gigId, string memory submissionUrl) public {
         // Your implementation here
+
     }
     
     // TODO: Implement approveAndPay function
