@@ -13,14 +13,14 @@ contract SkillsMarketplace {
     // - How will you track workers and their skills?
     // - How will you store gig information?
     // - How will you manage payments?
-    mapping(string => string) workerSkills;
-    string[] gigs;
+    mapping(address => string) workerSkills;
+    uint256[] gigs;
     uint[] payments;
 
     constructor() {
         workerSkills["bob"] = "good at digging";
-        gigs[0] = "gig1";
-        payments[0] = 0;
+        gigs.push(0);
+        payments.push(0);
     }
     
     address public owner;
@@ -33,6 +33,7 @@ contract SkillsMarketplace {
     // - Emit an event when a worker registers
     function registerWorker(string memory skill) public {
         // Your implementation here
+        workerSkills[msg.sender] = skill;
     }
     
     // TODO: Implement postGig function
@@ -44,6 +45,7 @@ contract SkillsMarketplace {
     function postGig(string memory description, string memory skillRequired) public payable {
         // Your implementation here
         // Think: How do you safely hold the ETH until work is approved?
+
     }
     
     // TODO: Implement applyForGig function
@@ -54,6 +56,7 @@ contract SkillsMarketplace {
     // - Emit an event
     function applyForGig(uint256 gigId) public {
         // Your implementation here
+        gigs.push(gigId);
     }
     
     // TODO: Implement submitWork function
